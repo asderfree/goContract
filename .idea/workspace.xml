@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339ef2aa-64f5-417c-bb75-3b2578d029a6" name="Default Changelist" comment="">
+    <list default="true" id="339ef2aa-64f5-417c-bb75-3b2578d029a6" name="Default Changelist" comment="添加查询所有社区信息的代码">
+      <change afterPath="$PROJECT_DIR$/gorpc/go_run_test1_rpc_go.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gorpc/test1_rpc.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shequ/shequ.go" beforeDir="false" afterPath="$PROJECT_DIR$/Shequ/shequ.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shequ/shequ_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Shequ/shequ_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +35,15 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1nBWRwVxuJetnuS9vpgB9gSpXHF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -52,7 +54,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gorpc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,7 +69,17 @@
       <recent name="D:\GoProject\src\example.web\Contract\Contract2\contract" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestAll in example.web/Contract/Contract2/Shequ (3)">
+  <component name="RunManager" selected="Go Build.go run test1_rpc.go">
+    <configuration name="go run test1_rpc.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="Contract2" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/gorpc/test1_rpc.go" />
+      <package value="example.web/Contract/Contract2" />
+      <directory value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$/gorpc" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestAll in example.web/Contract/Contract2/Shequ (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Contract2" />
       <working_directory value="$PROJECT_DIR$/Shequ" />
@@ -101,17 +113,6 @@
       <pattern value="^\QTestAll\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestAll in example.web/Contract/Contract2/Shequ" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Contract2" />
-      <working_directory value="$PROJECT_DIR$/Shequ" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="example.web/Contract/Contract2/Shequ" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestAll\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestInit in example.web/Contract/Contract2/store (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Contract2" />
       <working_directory value="$PROJECT_DIR$/store" />
@@ -123,13 +124,20 @@
       <pattern value="^\QTestInit\E$" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go run test1_rpc.go" />
+      <item itemvalue="Go Test.TestAll in example.web/Contract/Contract2/Shequ (1)" />
+      <item itemvalue="Go Test.TestAll in example.web/Contract/Contract2/Shequ (2)" />
+      <item itemvalue="Go Test.TestAll in example.web/Contract/Contract2/Shequ (3)" />
+      <item itemvalue="Go Test.TestInit in example.web/Contract/Contract2/store (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go run test1_rpc.go" />
         <item itemvalue="Go Test.TestAll in example.web/Contract/Contract2/Shequ (3)" />
         <item itemvalue="Go Test.TestAll in example.web/Contract/Contract2/Shequ (2)" />
         <item itemvalue="Go Test.TestAll in example.web/Contract/Contract2/Shequ (1)" />
         <item itemvalue="Go Test.TestInit in example.web/Contract/Contract2/store (1)" />
-        <item itemvalue="Go Test.TestAll in example.web/Contract/Contract2/Shequ" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +156,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="添加查询所有社区信息的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加查询所有社区信息的代码" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
